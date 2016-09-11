@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57D365DD9C66AEEB7264CF7B /* Pods_BitPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B79AC93946D84EE6FFADC27 /* Pods_BitPrice.framework */; };
+		5A694CAA1D832310002AEF10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CA91D832310002AEF10 /* AppDelegate.swift */; };
+		5A694CAF1D832310002AEF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A694CAD1D832310002AEF10 /* Main.storyboard */; };
+		5A694CB11D832310002AEF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A694CB01D832310002AEF10 /* Assets.xcassets */; };
+		5A694CB41D832310002AEF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A694CB21D832310002AEF10 /* LaunchScreen.storyboard */; };
+		5A694CBF1D832310002AEF10 /* BitPriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CBE1D832310002AEF10 /* BitPriceTests.swift */; };
+		5A694CCA1D832310002AEF10 /* BitPriceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CC91D832310002AEF10 /* BitPriceUITests.swift */; };
+		5A694CDA1D832375002AEF10 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CD91D832375002AEF10 /* BaseViewController.swift */; };
+		5A694CDE1D8326FF002AEF10 /* BitcoinPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CDD1D8326FF002AEF10 /* BitcoinPrice.swift */; };
+		5A694CDF1D8326FF002AEF10 /* BitcoinPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CDD1D8326FF002AEF10 /* BitcoinPrice.swift */; };
+		5A694CE01D8326FF002AEF10 /* BitcoinPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CDD1D8326FF002AEF10 /* BitcoinPrice.swift */; };
+		5A694CE81D859369002AEF10 /* BPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CE71D859369002AEF10 /* BPIService.swift */; };
+		5A694CE91D859369002AEF10 /* BPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CE71D859369002AEF10 /* BPIService.swift */; };
+		5A694CEA1D859369002AEF10 /* BPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CE71D859369002AEF10 /* BPIService.swift */; };
+		5A694CEC1D8594EB002AEF10 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CEB1D8594EB002AEF10 /* APIManager.swift */; };
+		5A694CED1D8594EB002AEF10 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CEB1D8594EB002AEF10 /* APIManager.swift */; };
+		5A694CEE1D8594EB002AEF10 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CEB1D8594EB002AEF10 /* APIManager.swift */; };
+		5A694CF01D859BA1002AEF10 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CEF1D859BA1002AEF10 /* Time.swift */; };
+		5A694CF11D859BA1002AEF10 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CEF1D859BA1002AEF10 /* Time.swift */; };
+		5A694CF21D859BA1002AEF10 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CEF1D859BA1002AEF10 /* Time.swift */; };
+		5A694CF41D859D7F002AEF10 /* BitCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CF31D859D7F002AEF10 /* BitCurrency.swift */; };
+		5A694CF51D859D7F002AEF10 /* BitCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CF31D859D7F002AEF10 /* BitCurrency.swift */; };
+		5A694CF61D859D7F002AEF10 /* BitCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CF31D859D7F002AEF10 /* BitCurrency.swift */; };
+		5A694CF71D85A094002AEF10 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CD91D832375002AEF10 /* BaseViewController.swift */; };
+		5A694CF81D85A094002AEF10 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CD91D832375002AEF10 /* BaseViewController.swift */; };
+		5A694CFB1D85A329002AEF10 /* String+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CFA1D85A329002AEF10 /* String+Html.swift */; };
+		5A694CFC1D85A329002AEF10 /* String+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CFA1D85A329002AEF10 /* String+Html.swift */; };
+		5A694CFD1D85A329002AEF10 /* String+Html.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CFA1D85A329002AEF10 /* String+Html.swift */; };
+		5A694D001D85A52B002AEF10 /* BPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CFF1D85A52B002AEF10 /* BPColors.swift */; };
+		5A694D011D85A52B002AEF10 /* BPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CFF1D85A52B002AEF10 /* BPColors.swift */; };
+		5A694D021D85A52B002AEF10 /* BPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CFF1D85A52B002AEF10 /* BPColors.swift */; };
+		5A694D041D85A546002AEF10 /* BPHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D031D85A546002AEF10 /* BPHud.swift */; };
+		5A694D051D85A546002AEF10 /* BPHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D031D85A546002AEF10 /* BPHud.swift */; };
+		5A694D061D85A546002AEF10 /* BPHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D031D85A546002AEF10 /* BPHud.swift */; };
+		5A694D081D85B8E7002AEF10 /* BitcoinPriceHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D071D85B8E7002AEF10 /* BitcoinPriceHistory.swift */; };
+		5A694D091D85B8E7002AEF10 /* BitcoinPriceHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D071D85B8E7002AEF10 /* BitcoinPriceHistory.swift */; };
+		5A694D0A1D85B8E7002AEF10 /* BitcoinPriceHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D071D85B8E7002AEF10 /* BitcoinPriceHistory.swift */; };
+		5A694D0C1D85DFC2002AEF10 /* NSDate+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D0B1D85DFC2002AEF10 /* NSDate+Utils.swift */; };
+		5A694D0D1D85DFC2002AEF10 /* NSDate+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D0B1D85DFC2002AEF10 /* NSDate+Utils.swift */; };
+		5A694D0E1D85DFC2002AEF10 /* NSDate+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D0B1D85DFC2002AEF10 /* NSDate+Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A694CBB1D832310002AEF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A694C9E1D832310002AEF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A694CA51D832310002AEF10;
+			remoteInfo = BitPrice;
+		};
+		5A694CC61D832310002AEF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A694C9E1D832310002AEF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A694CA51D832310002AEF10;
+			remoteInfo = BitPrice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24445C6544A6621278748439 /* Pods-BitPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPrice.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice.release.xcconfig"; sourceTree = "<group>"; };
+		3B79AC93946D84EE6FFADC27 /* Pods_BitPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPrice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A694CA61D832310002AEF10 /* BitPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A694CA91D832310002AEF10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A694CAE1D832310002AEF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A694CB01D832310002AEF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A694CB31D832310002AEF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A694CB51D832310002AEF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A694CBA1D832310002AEF10 /* BitPriceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitPriceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A694CBE1D832310002AEF10 /* BitPriceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitPriceTests.swift; sourceTree = "<group>"; };
+		5A694CC01D832310002AEF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A694CC51D832310002AEF10 /* BitPriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitPriceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A694CC91D832310002AEF10 /* BitPriceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitPriceUITests.swift; sourceTree = "<group>"; };
+		5A694CCB1D832310002AEF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A694CD91D832375002AEF10 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Source/BaseViewController.swift; sourceTree = "<group>"; };
+		5A694CDD1D8326FF002AEF10 /* BitcoinPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BitcoinPrice.swift; path = Source/Models/BitcoinPrice.swift; sourceTree = "<group>"; };
+		5A694CE71D859369002AEF10 /* BPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BPIService.swift; path = Source/WebServices/BPIService.swift; sourceTree = "<group>"; };
+		5A694CEB1D8594EB002AEF10 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = Source/WebServices/APIManager.swift; sourceTree = "<group>"; };
+		5A694CEF1D859BA1002AEF10 /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Time.swift; path = Source/Models/Time.swift; sourceTree = "<group>"; };
+		5A694CF31D859D7F002AEF10 /* BitCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BitCurrency.swift; path = Source/Models/BitCurrency.swift; sourceTree = "<group>"; };
+		5A694CFA1D85A329002AEF10 /* String+Html.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Html.swift"; path = "Source/Extensions/String+Html.swift"; sourceTree = "<group>"; };
+		5A694CFF1D85A52B002AEF10 /* BPColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BPColors.swift; path = Source/Utils/BPColors.swift; sourceTree = "<group>"; };
+		5A694D031D85A546002AEF10 /* BPHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BPHud.swift; path = Source/Utils/BPHud.swift; sourceTree = "<group>"; };
+		5A694D071D85B8E7002AEF10 /* BitcoinPriceHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BitcoinPriceHistory.swift; path = Source/Models/BitcoinPriceHistory.swift; sourceTree = "<group>"; };
+		5A694D0B1D85DFC2002AEF10 /* NSDate+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+Utils.swift"; path = "Source/Extensions/NSDate+Utils.swift"; sourceTree = "<group>"; };
+		AE212D4007CE22C59C6971A6 /* Pods-BitPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPrice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A694CA31D832310002AEF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D365DD9C66AEEB7264CF7B /* Pods_BitPrice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A694CB71D832310002AEF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A694CC21D832310002AEF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A694C9D1D832310002AEF10 = {
+			isa = PBXGroup;
+			children = (
+				5A694CA81D832310002AEF10 /* BitPrice */,
+				5A694CBD1D832310002AEF10 /* BitPriceTests */,
+				5A694CC81D832310002AEF10 /* BitPriceUITests */,
+				5A694CA71D832310002AEF10 /* Products */,
+				FBFB8D640C8F3E6723BFC9BE /* Pods */,
+				61AA5B71679588634AD379CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A694CA71D832310002AEF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CA61D832310002AEF10 /* BitPrice.app */,
+				5A694CBA1D832310002AEF10 /* BitPriceTests.xctest */,
+				5A694CC51D832310002AEF10 /* BitPriceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A694CA81D832310002AEF10 /* BitPrice */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CD81D83233F002AEF10 /* Source */,
+				5A694CD71D832337002AEF10 /* UI */,
+				5A694CA91D832310002AEF10 /* AppDelegate.swift */,
+				5A694CB01D832310002AEF10 /* Assets.xcassets */,
+				5A694CB51D832310002AEF10 /* Info.plist */,
+			);
+			path = BitPrice;
+			sourceTree = "<group>";
+		};
+		5A694CBD1D832310002AEF10 /* BitPriceTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CBE1D832310002AEF10 /* BitPriceTests.swift */,
+				5A694CC01D832310002AEF10 /* Info.plist */,
+			);
+			path = BitPriceTests;
+			sourceTree = "<group>";
+		};
+		5A694CC81D832310002AEF10 /* BitPriceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CC91D832310002AEF10 /* BitPriceUITests.swift */,
+				5A694CCB1D832310002AEF10 /* Info.plist */,
+			);
+			path = BitPriceUITests;
+			sourceTree = "<group>";
+		};
+		5A694CD71D832337002AEF10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CAD1D832310002AEF10 /* Main.storyboard */,
+				5A694CB21D832310002AEF10 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		5A694CD81D83233F002AEF10 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CFE1D85A511002AEF10 /* Utils */,
+				5A694CF91D85A304002AEF10 /* Extensions */,
+				5A694CDC1D83241F002AEF10 /* Models */,
+				5A694CDB1D8323CD002AEF10 /* WebServices */,
+				5A694CD91D832375002AEF10 /* BaseViewController.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5A694CDB1D8323CD002AEF10 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CE71D859369002AEF10 /* BPIService.swift */,
+				5A694CEB1D8594EB002AEF10 /* APIManager.swift */,
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+		5A694CDC1D83241F002AEF10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CDD1D8326FF002AEF10 /* BitcoinPrice.swift */,
+				5A694CEF1D859BA1002AEF10 /* Time.swift */,
+				5A694CF31D859D7F002AEF10 /* BitCurrency.swift */,
+				5A694D071D85B8E7002AEF10 /* BitcoinPriceHistory.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5A694CF91D85A304002AEF10 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CFA1D85A329002AEF10 /* String+Html.swift */,
+				5A694D0B1D85DFC2002AEF10 /* NSDate+Utils.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		5A694CFE1D85A511002AEF10 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5A694CFF1D85A52B002AEF10 /* BPColors.swift */,
+				5A694D031D85A546002AEF10 /* BPHud.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		61AA5B71679588634AD379CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B79AC93946D84EE6FFADC27 /* Pods_BitPrice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBFB8D640C8F3E6723BFC9BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE212D4007CE22C59C6971A6 /* Pods-BitPrice.debug.xcconfig */,
+				24445C6544A6621278748439 /* Pods-BitPrice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A694CA51D832310002AEF10 /* BitPrice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A694CCE1D832310002AEF10 /* Build configuration list for PBXNativeTarget "BitPrice" */;
+			buildPhases = (
+				7440417F84DC85516CF08501 /* Check Pods Manifest.lock */,
+				5A694CA21D832310002AEF10 /* Sources */,
+				5A694CA31D832310002AEF10 /* Frameworks */,
+				5A694CA41D832310002AEF10 /* Resources */,
+				60C0BE0C3B9BD8B41FFE3631 /* Embed Pods Frameworks */,
+				330E2BF40B13AB2B6EF3C8EA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitPrice;
+			productName = BitPrice;
+			productReference = 5A694CA61D832310002AEF10 /* BitPrice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A694CB91D832310002AEF10 /* BitPriceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A694CD11D832310002AEF10 /* Build configuration list for PBXNativeTarget "BitPriceTests" */;
+			buildPhases = (
+				5A694CB61D832310002AEF10 /* Sources */,
+				5A694CB71D832310002AEF10 /* Frameworks */,
+				5A694CB81D832310002AEF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A694CBC1D832310002AEF10 /* PBXTargetDependency */,
+			);
+			name = BitPriceTests;
+			productName = BitPriceTests;
+			productReference = 5A694CBA1D832310002AEF10 /* BitPriceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A694CC41D832310002AEF10 /* BitPriceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A694CD41D832310002AEF10 /* Build configuration list for PBXNativeTarget "BitPriceUITests" */;
+			buildPhases = (
+				5A694CC11D832310002AEF10 /* Sources */,
+				5A694CC21D832310002AEF10 /* Frameworks */,
+				5A694CC31D832310002AEF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A694CC71D832310002AEF10 /* PBXTargetDependency */,
+			);
+			name = BitPriceUITests;
+			productName = BitPriceUITests;
+			productReference = 5A694CC51D832310002AEF10 /* BitPriceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A694C9E1D832310002AEF10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Norberto Vasconcelos";
+				TargetAttributes = {
+					5A694CA51D832310002AEF10 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5A694CB91D832310002AEF10 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5A694CA51D832310002AEF10;
+					};
+					5A694CC41D832310002AEF10 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5A694CA51D832310002AEF10;
+					};
+				};
+			};
+			buildConfigurationList = 5A694CA11D832310002AEF10 /* Build configuration list for PBXProject "BitPrice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A694C9D1D832310002AEF10;
+			productRefGroup = 5A694CA71D832310002AEF10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A694CA51D832310002AEF10 /* BitPrice */,
+				5A694CB91D832310002AEF10 /* BitPriceTests */,
+				5A694CC41D832310002AEF10 /* BitPriceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A694CA41D832310002AEF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A694CB41D832310002AEF10 /* LaunchScreen.storyboard in Resources */,
+				5A694CB11D832310002AEF10 /* Assets.xcassets in Resources */,
+				5A694CAF1D832310002AEF10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A694CB81D832310002AEF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A694CC31D832310002AEF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		330E2BF40B13AB2B6EF3C8EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60C0BE0C3B9BD8B41FFE3631 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7440417F84DC85516CF08501 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A694CA21D832310002AEF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A694CF01D859BA1002AEF10 /* Time.swift in Sources */,
+				5A694CDA1D832375002AEF10 /* BaseViewController.swift in Sources */,
+				5A694CDE1D8326FF002AEF10 /* BitcoinPrice.swift in Sources */,
+				5A694D081D85B8E7002AEF10 /* BitcoinPriceHistory.swift in Sources */,
+				5A694D0C1D85DFC2002AEF10 /* NSDate+Utils.swift in Sources */,
+				5A694CFB1D85A329002AEF10 /* String+Html.swift in Sources */,
+				5A694CF41D859D7F002AEF10 /* BitCurrency.swift in Sources */,
+				5A694D001D85A52B002AEF10 /* BPColors.swift in Sources */,
+				5A694CEC1D8594EB002AEF10 /* APIManager.swift in Sources */,
+				5A694CAA1D832310002AEF10 /* AppDelegate.swift in Sources */,
+				5A694CE81D859369002AEF10 /* BPIService.swift in Sources */,
+				5A694D041D85A546002AEF10 /* BPHud.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A694CB61D832310002AEF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A694CED1D8594EB002AEF10 /* APIManager.swift in Sources */,
+				5A694CE91D859369002AEF10 /* BPIService.swift in Sources */,
+				5A694CF51D859D7F002AEF10 /* BitCurrency.swift in Sources */,
+				5A694D091D85B8E7002AEF10 /* BitcoinPriceHistory.swift in Sources */,
+				5A694D0D1D85DFC2002AEF10 /* NSDate+Utils.swift in Sources */,
+				5A694CFC1D85A329002AEF10 /* String+Html.swift in Sources */,
+				5A694CF11D859BA1002AEF10 /* Time.swift in Sources */,
+				5A694D011D85A52B002AEF10 /* BPColors.swift in Sources */,
+				5A694CDF1D8326FF002AEF10 /* BitcoinPrice.swift in Sources */,
+				5A694CF71D85A094002AEF10 /* BaseViewController.swift in Sources */,
+				5A694CBF1D832310002AEF10 /* BitPriceTests.swift in Sources */,
+				5A694D051D85A546002AEF10 /* BPHud.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A694CC11D832310002AEF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A694CEE1D8594EB002AEF10 /* APIManager.swift in Sources */,
+				5A694CEA1D859369002AEF10 /* BPIService.swift in Sources */,
+				5A694CF61D859D7F002AEF10 /* BitCurrency.swift in Sources */,
+				5A694D0A1D85B8E7002AEF10 /* BitcoinPriceHistory.swift in Sources */,
+				5A694D0E1D85DFC2002AEF10 /* NSDate+Utils.swift in Sources */,
+				5A694CFD1D85A329002AEF10 /* String+Html.swift in Sources */,
+				5A694CF21D859BA1002AEF10 /* Time.swift in Sources */,
+				5A694D021D85A52B002AEF10 /* BPColors.swift in Sources */,
+				5A694CE01D8326FF002AEF10 /* BitcoinPrice.swift in Sources */,
+				5A694CF81D85A094002AEF10 /* BaseViewController.swift in Sources */,
+				5A694CCA1D832310002AEF10 /* BitPriceUITests.swift in Sources */,
+				5A694D061D85A546002AEF10 /* BPHud.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A694CBC1D832310002AEF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A694CA51D832310002AEF10 /* BitPrice */;
+			targetProxy = 5A694CBB1D832310002AEF10 /* PBXContainerItemProxy */;
+		};
+		5A694CC71D832310002AEF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A694CA51D832310002AEF10 /* BitPrice */;
+			targetProxy = 5A694CC61D832310002AEF10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A694CAD1D832310002AEF10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A694CAE1D832310002AEF10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A694CB21D832310002AEF10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A694CB31D832310002AEF10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A694CCC1D832310002AEF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A694CCD1D832310002AEF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A694CCF1D832310002AEF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE212D4007CE22C59C6971A6 /* Pods-BitPrice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitPrice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvasconcelos.BitPrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A694CD01D832310002AEF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24445C6544A6621278748439 /* Pods-BitPrice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitPrice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvasconcelos.BitPrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A694CD21D832310002AEF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitPriceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvasconcelos.BitPriceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitPrice.app/BitPrice";
+			};
+			name = Debug;
+		};
+		5A694CD31D832310002AEF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitPriceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvasconcelos.BitPriceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitPrice.app/BitPrice";
+			};
+			name = Release;
+		};
+		5A694CD51D832310002AEF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitPriceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvasconcelos.BitPriceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitPrice;
+			};
+			name = Debug;
+		};
+		5A694CD61D832310002AEF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitPriceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvasconcelos.BitPriceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitPrice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A694CA11D832310002AEF10 /* Build configuration list for PBXProject "BitPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A694CCC1D832310002AEF10 /* Debug */,
+				5A694CCD1D832310002AEF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A694CCE1D832310002AEF10 /* Build configuration list for PBXNativeTarget "BitPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A694CCF1D832310002AEF10 /* Debug */,
+				5A694CD01D832310002AEF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A694CD11D832310002AEF10 /* Build configuration list for PBXNativeTarget "BitPriceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A694CD21D832310002AEF10 /* Debug */,
+				5A694CD31D832310002AEF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A694CD41D832310002AEF10 /* Build configuration list for PBXNativeTarget "BitPriceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A694CD51D832310002AEF10 /* Debug */,
+				5A694CD61D832310002AEF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A694C9E1D832310002AEF10 /* Project object */;
+}
