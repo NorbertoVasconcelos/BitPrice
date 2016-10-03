@@ -7,6 +7,8 @@ target ‘BitPrice’ do
     pod 'RxSwift'
     pod 'Moya'
     pod 'Moya/RxSwift'
+    pod 'Moya-ObjectMapper/RxSwift', '~> 1.3'
     pod 'SwiftChart'
+    pod 'ObjectMapper'
 end
 

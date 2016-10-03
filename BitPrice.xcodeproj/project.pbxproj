@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57D365DD9C66AEEB7264CF7B /* Pods_BitPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B79AC93946D84EE6FFADC27 /* Pods_BitPrice.framework */; };
 		5A694CAA1D832310002AEF10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694CA91D832310002AEF10 /* AppDelegate.swift */; };
 		5A694CAF1D832310002AEF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A694CAD1D832310002AEF10 /* Main.storyboard */; };
 		5A694CB11D832310002AEF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A694CB01D832310002AEF10 /* Assets.xcassets */; };
@@ -47,6 +46,7 @@
 		5A694D0C1D85DFC2002AEF10 /* NSDate+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D0B1D85DFC2002AEF10 /* NSDate+Utils.swift */; };
 		5A694D0D1D85DFC2002AEF10 /* NSDate+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D0B1D85DFC2002AEF10 /* NSDate+Utils.swift */; };
 		5A694D0E1D85DFC2002AEF10 /* NSDate+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A694D0B1D85DFC2002AEF10 /* NSDate+Utils.swift */; };
+		79CA65DCE3EEA4E242D89D1D /* Pods_BitPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1199A5FD11B1672145321DB /* Pods_BitPrice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24445C6544A6621278748439 /* Pods-BitPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPrice.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice.release.xcconfig"; sourceTree = "<group>"; };
-		3B79AC93946D84EE6FFADC27 /* Pods_BitPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPrice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A694CA61D832310002AEF10 /* BitPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A694CA91D832310002AEF10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A694CAE1D832310002AEF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,7 +90,9 @@
 		5A694D031D85A546002AEF10 /* BPHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BPHud.swift; path = Source/Utils/BPHud.swift; sourceTree = "<group>"; };
 		5A694D071D85B8E7002AEF10 /* BitcoinPriceHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BitcoinPriceHistory.swift; path = Source/Models/BitcoinPriceHistory.swift; sourceTree = "<group>"; };
 		5A694D0B1D85DFC2002AEF10 /* NSDate+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSDate+Utils.swift"; path = "Source/Extensions/NSDate+Utils.swift"; sourceTree = "<group>"; };
-		AE212D4007CE22C59C6971A6 /* Pods-BitPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPrice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice.debug.xcconfig"; sourceTree = "<group>"; };
+		A0824C23F1F621E58243C120 /* Pods-BitPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPrice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice.debug.xcconfig"; sourceTree = "<group>"; };
+		A1199A5FD11B1672145321DB /* Pods_BitPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitPrice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB42F8E6BA2AAF7B853773B /* Pods-BitPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitPrice.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D365DD9C66AEEB7264CF7B /* Pods_BitPrice.framework in Frameworks */,
+				79CA65DCE3EEA4E242D89D1D /* Pods_BitPrice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FAA15A4C71FAE22D6DAD24F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0824C23F1F621E58243C120 /* Pods-BitPrice.debug.xcconfig */,
+				DBB42F8E6BA2AAF7B853773B /* Pods-BitPrice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54A5680CA330EE81705FB639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1199A5FD11B1672145321DB /* Pods_BitPrice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5A694C9D1D832310002AEF10 = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +145,8 @@
 				5A694CBD1D832310002AEF10 /* BitPriceTests */,
 				5A694CC81D832310002AEF10 /* BitPriceUITests */,
 				5A694CA71D832310002AEF10 /* Products */,
-				FBFB8D640C8F3E6723BFC9BE /* Pods */,
-				61AA5B71679588634AD379CF /* Frameworks */,
+				0FAA15A4C71FAE22D6DAD24F /* Pods */,
+				54A5680CA330EE81705FB639 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,23 +249,6 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
-		61AA5B71679588634AD379CF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3B79AC93946D84EE6FFADC27 /* Pods_BitPrice.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FBFB8D640C8F3E6723BFC9BE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AE212D4007CE22C59C6971A6 /* Pods-BitPrice.debug.xcconfig */,
-				24445C6544A6621278748439 /* Pods-BitPrice.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -256,12 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A694CCE1D832310002AEF10 /* Build configuration list for PBXNativeTarget "BitPrice" */;
 			buildPhases = (
-				7440417F84DC85516CF08501 /* Check Pods Manifest.lock */,
+				72A3A30F96ECBA8E0C95A32D /* [CP] Check Pods Manifest.lock */,
 				5A694CA21D832310002AEF10 /* Sources */,
 				5A694CA31D832310002AEF10 /* Frameworks */,
 				5A694CA41D832310002AEF10 /* Resources */,
-				60C0BE0C3B9BD8B41FFE3631 /* Embed Pods Frameworks */,
-				330E2BF40B13AB2B6EF3C8EA /* Copy Pods Resources */,
+				F5DC62220EDCA361E7F878E1 /* [CP] Embed Pods Frameworks */,
+				6A0410643ED81F00F9692B65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -379,14 +379,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		330E2BF40B13AB2B6EF3C8EA /* Copy Pods Resources */ = {
+		6A0410643ED81F00F9692B65 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,34 +394,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		60C0BE0C3B9BD8B41FFE3631 /* Embed Pods Frameworks */ = {
+		72A3A30F96ECBA8E0C95A32D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7440417F84DC85516CF08501 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DC62220EDCA361E7F878E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitPrice/Pods-BitPrice-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -606,7 +606,7 @@
 		};
 		5A694CCF1D832310002AEF10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE212D4007CE22C59C6971A6 /* Pods-BitPrice.debug.xcconfig */;
+			baseConfigurationReference = A0824C23F1F621E58243C120 /* Pods-BitPrice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BitPrice/Info.plist;
@@ -618,7 +618,7 @@
 		};
 		5A694CD01D832310002AEF10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24445C6544A6621278748439 /* Pods-BitPrice.release.xcconfig */;
+			baseConfigurationReference = DBB42F8E6BA2AAF7B853773B /* Pods-BitPrice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BitPrice/Info.plist;
